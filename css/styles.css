@@ -1,17 +1,22 @@
 #letter {
   display: none;
-  background-image: url("../img/paper2.jpg");
+  background-image: linear-gradient(to right, rgba(247, 217, 119, 0.3) 0%, rgba(245, 199, 138, 0.3) 100%), url("../img/war.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 25px;
-  font-family: 'MonteCarlo', cursive;
-  font-size: larger;
-  /* opacity: .7; */
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: xx-large;
+  box-shadow: 8px 4px black;
+  
 }
 
-#letter img {
-  opacity: 25%;
-}
 
 .btn {
   background-color: antiquewhite;
   margin-bottom: 25px;
+  box-shadow: 2px 2px black;
+}
+
+h1  {
+  text-shadow: 2px 2px burlywood;
 }
