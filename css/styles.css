@@ -1,3 +1,17 @@
 #letter {
   display: none;
+  background-image: url("../img/paper2.jpg");
+  padding: 25px;
+  font-family: 'MonteCarlo', cursive;
+  font-size: larger;
+  /* opacity: .7; */
+}
+
+#letter img {
+  opacity: 25%;
+}
+
+.btn {
+  background-color: antiquewhite;
+  margin-bottom: 25px;
 }
